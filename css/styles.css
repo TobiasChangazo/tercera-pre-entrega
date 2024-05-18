@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 200px;
+    margin: 10px;
+    height: 100%;
+    background: url(vestafondo.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgb(165, 132, 236);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#ListaProductos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.producto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    background-color: rgb(173, 146, 188);
+    border-radius: 10px;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+}
+
+#carrito {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#carrito ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#carrito li {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 20px 40px;
+    background-color: #28a745;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
